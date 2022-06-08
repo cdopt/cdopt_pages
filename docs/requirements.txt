@@ -11,6 +11,7 @@ sphinx_external_toc
 sphinx-panels
 sphinx-jupyterbook-latex
 sphinxcontrib-bibtex
+linkify-it-py
 # Newer versions cause issues; see https://github.com/google/jax/pull/6449
 sphinx-autodoc-typehints
 sphinx-copybutton
@@ -25,8 +26,8 @@ traitlets<5.2.0
 docutils == 0.16
 
 # Packages used for CI tests.
-# pytest
-# pytest-xdist
+pytest
+pytest-xdist
 
 # Packages used for notebook execution
 matplotlib
