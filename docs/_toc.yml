@@ -1,0 +1,37 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: md_files/intro
+chapters:
+- file: md_files/overview
+- file: md_files/installation
+- file: md_files/tutorial
+  sections:
+  - file: md_files/tutorials/quick_start
+  - file: md_files/tutorials/define_manifolds
+  - file: md_files/tutorials/build_networks
+- file: md_files/api_reference
+  sections:
+  - file: md_files/apis/cdopt_core
+  - file: md_files/apis/cdopt_manifold
+  - file: md_files/apis/cdopt_manifold_np
+    sections:
+    - file: md_files/apis/manifold_np/basic_manifold_np
+    - file: md_files/apis/manifold_np/euclidean_np
+    - file: md_files/apis/manifold_np/sphere_np
+    - file: md_files/apis/manifold_np/oblique_np
+    - file: md_files/apis/manifold_np/stiefel_np
+    - file: md_files/apis/manifold_np/generalized_stiefel_np
+    - file: md_files/apis/manifold_np/hyperbolic_np
+    - file: md_files/apis/manifold_np/symp_stiefel_np
+  - file: md_files/apis/cdopt_manifold_torch
+    sections:
+    - file: md_files/apis/manifold_torch/basic_manifold_torch
+    - file: md_files/apis/manifold_torch/euclidean_torch
+    - file: md_files/apis/manifold_torch/sphere_torch
+    - file: md_files/apis/manifold_torch/oblique_torch
+    - file: md_files/apis/manifold_torch/stiefel_torch
+    - file: md_files/apis/manifold_torch/generalized_stiefel_torch
+    - file: md_files/apis/manifold_torch/hyperbolic_torch
+    - file: md_files/apis/manifold_torch/symp_stiefel_torch
