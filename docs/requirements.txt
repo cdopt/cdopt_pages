@@ -25,3 +25,4 @@ matplotlib
 scikit-learn
 numpy
 jupyter-book
+sphinx_thebe 
