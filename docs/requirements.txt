@@ -2,7 +2,7 @@
 sphinx == 4.0.1
 sphinx_rtd_theme == 0.4.3
 jinja2
-nbsphinx == 0.8.6
+nbsphinx
 sphinx-thebe
 sphinx-book-theme
 sphinx-remove-toctrees
