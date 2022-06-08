@@ -1,3 +1,26 @@
-jupyter-book
+# sphinx >=3 required by sphinx-autodoc-typehints v1.11.1 (Oct 2020)
+sphinx >=3
+sphinx_rtd_theme
+sphinx-book-theme
+sphinx-remove-toctrees
+# Newer versions cause issues; see https://github.com/google/jax/pull/6449
+sphinx-autodoc-typehints==1.11.1
+sphinx-copybutton>=0.5.0
+jupyter-sphinx>=0.3.2
+# Newer versions cause build failures; see https://github.com/google/jax/pull/10502
+myst-nb==0.15.0
+# Traitlets 5.2.X fails: https://github.com/ipython/traitlets/issues/741
+traitlets<5.2.0
+
+# Need to pin docutils to 0.16 to make bulleted lists appear correctly on
+# ReadTheDocs: https://stackoverflow.com/a/68008428
+docutils==0.16.0
+
+# Packages used for CI tests.
+pytest
+pytest-xdist
+
+# Packages used for notebook execution
 matplotlib
+scikit-learn
 numpy
