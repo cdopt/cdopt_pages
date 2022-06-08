@@ -25,6 +25,4 @@ matplotlib
 scikit-learn
 numpy
 jupyter-book
-sphinx_thebe 
 sphinx.builders.latex
-Sphinx==3.1.2 sphinx.builders.latex
