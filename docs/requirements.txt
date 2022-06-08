@@ -25,8 +25,8 @@ traitlets<5.2.0
 docutils == 0.16
 
 # Packages used for CI tests.
-pytest
-pytest-xdist
+# pytest
+# pytest-xdist
 
 # Packages used for notebook execution
 matplotlib
