@@ -25,4 +25,4 @@ matplotlib
 scikit-learn
 numpy
 jupyter-book
-sphinx.builders.latex
+Sphinx==3.1.2 sphinx.builders.latex
