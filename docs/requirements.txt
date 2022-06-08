@@ -10,6 +10,7 @@ sphinx-comments
 sphinx_external_toc
 sphinx-panels
 sphinx-jupyterbook-latex
+sphinxcontrib-bibtex
 # Newer versions cause issues; see https://github.com/google/jax/pull/6449
 sphinx-autodoc-typehints
 sphinx-copybutton
