@@ -4,17 +4,17 @@ sphinx_rtd_theme
 sphinx-book-theme
 sphinx-remove-toctrees
 # Newer versions cause issues; see https://github.com/google/jax/pull/6449
-sphinx-autodoc-typehints==1.11.1
-sphinx-copybutton>=0.5.0
-jupyter-sphinx>=0.3.2
+sphinx-autodoc-typehints
+sphinx-copybutton
+jupyter-sphinx
 # Newer versions cause build failures; see https://github.com/google/jax/pull/10502
-myst-nb==0.15.0
+myst-nb
 # Traitlets 5.2.X fails: https://github.com/ipython/traitlets/issues/741
 traitlets
 
 # Need to pin docutils to 0.16 to make bulleted lists appear correctly on
 # ReadTheDocs: https://stackoverflow.com/a/68008428
-docutils==0.16.0
+docutils
 
 # Packages used for CI tests.
 pytest
