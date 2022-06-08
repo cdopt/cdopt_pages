@@ -24,3 +24,4 @@ pytest-xdist
 matplotlib
 scikit-learn
 numpy
+jupyter-book
