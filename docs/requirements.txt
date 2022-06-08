@@ -3,6 +3,7 @@ sphinx == 4.0.1
 sphinx_rtd_theme == 0.4.3
 jinja2 == 3.0.0
 nbsphinx == 0.8.6
+sphinx-thebe
 sphinx-book-theme
 sphinx-remove-toctrees
 # Newer versions cause issues; see https://github.com/google/jax/pull/6449
@@ -12,7 +13,7 @@ jupyter-sphinx
 # Newer versions cause build failures; see https://github.com/google/jax/pull/10502
 myst-nb
 # Traitlets 5.2.X fails: https://github.com/ipython/traitlets/issues/741
-traitlets
+traitlets<5.2.0
 
 # Need to pin docutils to 0.16 to make bulleted lists appear correctly on
 # ReadTheDocs: https://stackoverflow.com/a/68008428
@@ -27,5 +28,3 @@ matplotlib
 scikit-learn
 numpy
 jupyter-book
-docutils
-sphinx-thebe
